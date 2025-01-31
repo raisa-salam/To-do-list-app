@@ -1,0 +1,110 @@
+/* General reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e8d5f5;
+  }
+  
+  /* App container */
+  .todo-app {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ede7f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  .todo-app h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input container */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #todo-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #add-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  #add-btn:hover {
+    background: #218838;
+  }
+  
+  /* To-Do List */
+  #todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #todo-list li {
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #todo-list li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Remove button */
+  .remove-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    background: #dc3545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    background: #c82333;
+  }
+
+  /* Day of the Week Section */
+.day-input-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.day-input-container label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+#day-input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
