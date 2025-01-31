@@ -4,12 +4,12 @@ This repository contains a simple yet elegant To-Do List Application built using
 
 # Features
 
-  • Add Tasks: Users can input tasks and add them to their to-do list.
+	•	Add Tasks: Users can input tasks and add them to their to-do list.
 	•	Remove Tasks: Each task includes a “Remove” button to delete it.
 	•	Keyboard Shortcut: Pressing Enter automatically adds the task.
 	•	Day of the Week Input: Users can enter the day for better organization.
 	•	Responsive & Styled UI: A sleek design with soft colors for a great user experience.
-
+ 
  # Files
  
  	•	index.html : Structure of the app.
