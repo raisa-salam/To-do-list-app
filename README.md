@@ -1,6 +1,7 @@
 # To-do-list-app
 
-This repository contains a simple yet elegant To-Do List Application built using HTML, CSS, and JavaScript. It allows users to add, remove, and manage tasks dynamically in a clean and user-friendly interface.
+This repository contains a simple yet elegant To-Do List Application built using HTML, CSS, and JavaScript. It allows users to add, remove, and manage tasks dynamically in a clean and user-friendly interface. This also demonstrates practical data handling and state management on the client side using JavaScript.
+
 
 # Features
 
